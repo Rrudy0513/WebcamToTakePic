@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- This link style sheet with the html-->
+    <link rel="stylesheet"  href="css/main.css">
+</head>
+<body>
+   <!--This div counter is to style are video and canvas-->
+    <div class="booth">
+        <!--video is where you can see the camera
+             id="video" is giving to  work with it on js file-->
+        <video id="video" width="300" height="300"></video>
+        <!--Button is to caputre the image-->
+        <button href="#" id="capture" class="booth-capture-button">Take photo</button>
+        <!--Canvas is used to hold a still image-->
+        <canvas id="canvas" width="300" height="300" ></canvas>
+        <!--Img is the place holder for a website image when it first open-->
+        <img id="photo" src="./js/img/frame.png" alt="">
+    </div>
+      <!-- This link the photo.js file with the html-->
+    <script src="js/photo.js"></script>
+</body>
+</html>
